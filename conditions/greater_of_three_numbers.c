@@ -6,15 +6,19 @@ int main()
 	scanf("%d %d %d",&a,&b,&c);
 	if(a>b&&a>c)
 	{
-		printf("a is greater than b\n");
+		printf("a is greatest\n");
 	}
 	else if(b>a&&b>c)
 	{
-		printf("a is greater than c\n");
+		printf("b is greatest\n");
+	}
+	else if(c>a&&c>b)
+	{
+		printf("c is greatest\n");
 	}
 	else
 	{
-		printf("c is grater than a\n");
+		printf("two or more numbers are equal");
 	}
 	return 0;
 }
